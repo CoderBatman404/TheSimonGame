@@ -30,7 +30,7 @@ body {
   background-color: red;
   opacity: 0.8;
 }
-
+/* 
 .red {
   background-color: red;
 }
@@ -45,8 +45,35 @@ body {
 
 .yellow {
   background-color: yellow;
+} */
+
+.red {
+  background: linear-gradient(135deg, #ff1a1a, #ff4d4d);
+  box-shadow: 0 0 25px #ff1a1a, 0 0 50px #ff4d4d;
+  border: 2px solid #ff6666;
+  border-radius: 12px;
 }
 
+.green {
+  background: linear-gradient(135deg, #00ff66, #33ff99);
+  box-shadow: 0 0 25px #00ff66, 0 0 50px #33ff99;
+  border: 2px solid #66ff99;
+  border-radius: 12px;
+}
+
+.blue {
+  background: linear-gradient(135deg, #00ccff, #3399ff);
+  box-shadow: 0 0 25px #00ccff, 0 0 50px #3399ff;
+  border: 2px solid #66ccff;
+  border-radius: 12px;
+}
+
+.yellow {
+  background: linear-gradient(135deg, #ffff66, #ffcc00);
+  box-shadow: 0 0 25px #ffff66, 0 0 50px #ffcc00;
+  border: 2px solid #ffdb4d;
+  border-radius: 12px;
+}
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
